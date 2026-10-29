@@ -1,0 +1,19 @@
+{
+  "name": "shiyam-portfolio",
+  "version": "1.0.0",
+  "description": "Professional academic & personal portfolio of Md. Touhidur Rahman Shiyam",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "eee",
+    "diu",
+    "web-developer",
+    "musician"
+  ],
+  "author": "Md. Touhidur Rahman Shiyam",
+  "license": "ISC"
+}

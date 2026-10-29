@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Touhidur Rahman Shiyam | Academic &amp; Professional Portfolio</title>
+  <meta name="description" content="Professional portfolio of Md. Touhidur Rahman Shiyam: B.Sc. in Electrical and Electronic Engineering (EEE) at Daffodil International University (DIU), Official Anchor at IEEE PES DIU SBC, Web Developer, and Musician.">
+  <meta name="keywords" content="Md. Touhidur Rahman Shiyam, Shiyam, EEE Undergraduate, DIU, Daffodil International University, IEEE PES DIU SBC, Anchor, Web Developer, Musician, Singer">
+  <meta name="author" content="Md. Touhidur Rahman Shiyam">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Md. Touhidur Rahman Shiyam | Professional Portfolio">
+  <meta property="og:description" content="B.Sc. in EEE at DIU | Anchor at IEEE PES DIU SBC | Web Developer | Musician">
+  <meta property="og:image" content="public/shiyam-suit.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Dancing+Script:wght@700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Tailwind CSS via CDN with Dark Mode Config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          },
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            body: ['Space Grotesk', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+            editorial: ['Syne', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css?v=1.0">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen relative antialiased transition-colors duration-300">
+
+  <!-- Ambient Animated Background Lights -->
+  <div class="bg-mesh-glow" aria-hidden="true">
+    <div class="mesh-orb orb-primary"></div>
+    <div class="mesh-orb orb-secondary"></div>
+    <div class="mesh-orb orb-accent"></div>
+  </div>
+
+  <!-- =========================================================================
+       1. NAVIGATION & SITE ARCHITECTURE
+       ========================================================================= -->
+  <header class="sticky top-0 z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo / Name -->
+      <a href="#home" class="group flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+          <span class="font-heading font-black text-lg">S</span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-heading font-bold text-base sm:text-lg tracking-tight text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+            Md. Touhidur Rahman Shiyam
+          </span>
+          <span class="text-xs font-mono text-slate-500 dark:text-slate-400">EEE • Anchor • Developer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden xl:flex items-center gap-1 font-medium text-sm text-slate-600 dark:text-slate-300">
+        <a href="#home" data-page="home" class="nav-page-link active-page px-3 py-2 rounded-lg hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all">Home</a>
+        <a href="#education" data-page="education" class="nav-page-link px-3 py-2 rounded-lg hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all">Education &amp; Training</a>
+        <a href="#projects" data-page="projects" class="nav-page-link px-3 py-2 rounded-lg hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all">My Projects</a>
+        <a href="#experience" data-page="experience" class="nav-page-link px-3 py-2 rounded-lg hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all">Work Experience &amp; Leadership</a>
+        <a href="#skills" data-page="skills" class="nav-page-link px-3 py-2 rounded-lg hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all">Skills &amp; Languages</a>
+
+        <!-- "More" Dropdown Menu for clean desktop layout -->
+        <div class="relative">
+          <button id="more-dropdown-btn" class="px-3 py-2 rounded-lg hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1.5 transition-all">
+            <span>More</span>
+            <i class="fa-solid fa-chevron-down text-xs opacity-70"></i>
+          </button>
+          
+          <div id="more-dropdown-menu" class="hidden absolute right-0 mt-2 w-56 glass-panel rounded-2xl shadow-2xl py-2 z-50 border border-slate-200 dark:border-slate-800 animate-in fade-in zoom-in-95 duration-150">
+            <a href="#participations" data-page="participations" class="nav-page-link flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-blue-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 hover:text-blue-600 transition-colors">
+              <i class="fa-solid fa-people-group w-4 text-blue-500"></i> Participations
+            </a>
+            <a href="#achievements" data-page="achievements" class="nav-page-link flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-blue-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 hover:text-blue-600 transition-colors">
+              <i class="fa-solid fa-award w-4 text-amber-500"></i> Achievements
+            </a>
+            <a href="#extracurricular" data-page="extracurricular" class="nav-page-link flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-blue-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 hover:text-blue-600 transition-colors">
+              <i class="fa-solid fa-star w-4 text-emerald-500"></i> Extracurricular Activities
+            </a>
+            <a href="#hobbies" data-page="hobbies" class="nav-page-link flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-blue-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 hover:text-blue-600 transition-colors">
+              <i class="fa-solid fa-guitar w-4 text-purple-500"></i> Hobbies &amp; Interests
+            </a>
+            <a href="#recommendations" data-page="recommendations" class="nav-page-link flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-blue-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 hover:text-blue-600 transition-colors">
+              <i class="fa-solid fa-thumbs-up w-4 text-cyan-500"></i> Recommendations
+            </a>
+            <div class="h-px bg-slate-200 dark:bg-slate-800 my-1"></div>
+            <a href="#feed" data-page="feed" class="nav-page-link flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-blue-50 dark:hover:bg-slate-800 font-semibold text-blue-600 dark:text-blue-400 transition-colors">
+              <i class="fa-solid fa-newspaper w-4"></i> The Feed &amp; Scripts
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Area: Dark/Light Mode Toggle & Mobile Drawer Button -->
+      <div class="flex items-center gap-3">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="w-10 h-10 rounded-xl bg-slate-200/80 dark:bg-slate-800/80 text-slate-700 dark:text-amber-400 hover:scale-105 active:scale-95 flex items-center justify-center transition-all" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon dark:hidden"></i>
+          <i class="fa-solid fa-sun hidden dark:block"></i>
+        </button>
+
+        <!-- CTA Button for Desktop -->
+        <a href="#the-feed" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-md shadow-blue-500/25 hover:shadow-lg transition-all">
+          <i class="fa-solid fa-clapperboard text-xs"></i>
+          <span>Video Script</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="xl:hidden w-10 h-10 rounded-xl bg-slate-200/80 dark:bg-slate-800/80 text-slate-800 dark:text-slate-200 flex items-center justify-center" aria-label="Open mobile menu">
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div id="mobile-drawer-overlay" class="hidden fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 transition-opacity"></div>
+
+  <!-- Mobile Collapsible Sidebar / Drawer -->
+  <aside id="mobile-drawer" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-white dark:bg-slate-900 z-50 shadow-2xl p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-in-out border-l border-slate-200 dark:border-slate-800">
+    <div class="space-y-6 overflow-y-auto max-h-[85vh] pr-2">
+      <!-- Drawer Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
+        <div class="flex items-center gap-2">
+          <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center text-sm">S</span>
+          <span class="font-heading font-bold text-slate-900 dark:text-white">Navigation</span>
+        </div>
+        <button id="close-drawer-btn" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 flex items-center justify-center hover:scale-105">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Drawer Nav Links -->
+      <nav class="flex flex-col space-y-1 text-sm font-medium text-slate-700 dark:text-slate-300">
+        <a href="#home" data-page="home" class="mobile-nav-link active-page p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-house w-5 text-blue-500"></i> Home
+        </a>
+        <a href="#education" data-page="education" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-graduation-cap w-5 text-blue-500"></i> Education &amp; Training
+        </a>
+        <a href="#projects" data-page="projects" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-microchip w-5 text-teal-500"></i> My Projects
+        </a>
+        <a href="#experience" data-page="experience" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-microphone-lines w-5 text-purple-500"></i> Work Experience &amp; Leadership
+        </a>
+        <a href="#participations" data-page="participations" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-people-group w-5 text-cyan-500"></i> Participations
+        </a>
+        <a href="#achievements" data-page="achievements" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-award w-5 text-amber-500"></i> Achievements
+        </a>
+        <a href="#extracurricular" data-page="extracurricular" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-star w-5 text-emerald-500"></i> Extracurricular Activities
+        </a>
+        <a href="#skills" data-page="skills" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-sliders w-5 text-orange-500"></i> Skills &amp; Languages
+        </a>
+        <a href="#hobbies" data-page="hobbies" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-guitar w-5 text-pink-500"></i> Hobbies &amp; Interests
+        </a>
+        <a href="#recommendations" data-page="recommendations" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 flex items-center gap-3">
+          <i class="fa-solid fa-thumbs-up w-5 text-sky-500"></i> Recommendations
+        </a>
+        <a href="#feed" data-page="feed" class="mobile-nav-link p-2.5 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 hover:text-blue-600 font-bold text-blue-600 dark:text-blue-400 flex items-center gap-3">
+          <i class="fa-solid fa-newspaper w-5"></i> The Feed &amp; Scripts
+        </a>
+      </nav>
+    </div>
+
+    <!-- Mobile Drawer Footer Theme Toggle -->
+    <div class="pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between">
+      <span class="text-xs text-slate-500 font-mono">Theme Mode</span>
+      <button id="theme-toggle-mobile" class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-semibold flex items-center gap-2">
+        <i class="fa-solid fa-circle-half-stroke text-blue-500"></i>
+        <span>Toggle Theme</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       PAGE VIEW 1: HOME (Hero, Socials, About Me, Video Resume)
+       ========================================================================= -->
+  <main class="page-view active relative z-10" id="page-home">
+
+    <!-- 2. HOME / HERO SECTION (Reference Match: Full Portrait with Signature Name at bottom) -->
+    <section id="home-hero" class="relative w-full h-screen min-h-[600px] overflow-hidden bg-slate-950">
+      
+      <!-- Background Portrait: Natural full framing -->
+      <div class="absolute inset-0 z-0">
+        <img 
+          src="public/shiyam-hero.jpg" 
+          alt="Md. Touhidur Rahman Shiyam" 
+          class="w-full h-full object-cover object-center brightness-[0.88] contrast-[1.05]"
+        >
+        <!-- Subtle shadow gradient only at the very bottom behind the text -->
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent pointer-events-none"></div>
+      </div>
+
+      <!-- Text Container: Fixed to the bottom area of the viewport below face -->
+      <div class="absolute bottom-8 sm:bottom-12 inset-x-0 z-10 text-center px-4 flex flex-col items-center pointer-events-auto">
+        <h1 
+          class="text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-bold tracking-wide drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] mb-3 select-none"
+          style="font-family: 'Caveat', 'Dancing Script', cursive; text-shadow: 0 4px 20px rgba(0,0,0,0.95), 0 2px 8px rgba(0,0,0,0.9);"
+        >
+          Md. Touhidur Rahman Shiyam
+        </h1>
+
+        <!-- Scroll Indicator -->
+        <a 
+          href="#about-section" 
+          class="text-white/80 hover:text-white transition-all transform hover:translate-y-1 flex flex-col items-center gap-1 group mt-2"
+          aria-label="Scroll down to About Me"
+        >
+          <span class="text-[10px] sm:text-[11px] font-mono tracking-widest uppercase opacity-70 group-hover:opacity-100">Scroll</span>
+          <i class="fa-solid fa-chevron-down text-base sm:text-lg animate-bounce drop-shadow-md"></i>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- 3. ABOUT ME SECTION (Inside #page-home) -->
+    <section id="about-section" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-slate-200/80 dark:border-slate-800/80">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left Column: Stylized Frame for Formal Portrait -->
+        <div class="lg:col-span-5 reveal-on-scroll">
+          <div class="relative mx-auto max-w-md">
+            <div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-blue-600/20 via-indigo-500/20 to-teal-400/20 blur-xl opacity-75"></div>
+            
+            <div class="relative rounded-3xl overflow-hidden glass-panel p-3 shadow-2xl border border-slate-200/80 dark:border-slate-700/80 group">
+              <div class="rounded-2xl overflow-hidden aspect-[4/5] bg-slate-200 dark:bg-slate-800 relative">
+                <img 
+                  src="public/shiyam-suit.jpg" 
+                  alt="Md. Touhidur Rahman Shiyam formal portrait" 
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  onerror="this.src='public/shiyam.jpg'"
+                >
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent opacity-40 pointer-events-none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Heading, Summary Paragraph & Structured Biodata -->
+        <div class="lg:col-span-7 space-y-6 reveal-on-scroll">
+          <div class="space-y-2">
+            <span class="text-xs font-mono font-semibold tracking-wider text-blue-600 dark:text-blue-400 uppercase">
+              // Discover My Journey
+            </span>
+            <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">
+              About Me
+            </h2>
+          </div>
+
+          <!-- Compelling Summary Paragraph -->
+          <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+            I am <strong class="text-slate-900 dark:text-white">Md. Touhidur Rahman Shiyam</strong>, an undergraduate student pursuing my <strong class="text-blue-600 dark:text-blue-400">B.Sc. in Electrical and Electronic Engineering (EEE)</strong> at <strong class="text-slate-900 dark:text-white">Daffodil International University (DIU)</strong>. While my academic core is deeply rooted in engineering analysis, circuit theory, and technical precision, I thrive at the unique intersection of science and creative communication.
+          </p>
+
+          <p class="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
+            As an official event anchor for the <strong class="text-slate-900 dark:text-white">IEEE PES DIU Student Branch Chapter</strong>, I moderate technical symposiums, host international webinars, and bridge the gap between complex engineering topics and wide audiences. Simultaneously, I am dedicated to modern web development—crafting accessible, responsive web interfaces—while finding artistic balance through acoustic guitar and vocal melodies.
+          </p>
+
+          <!-- Structured Biodata Card -->
+          <div class="glass-panel rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-4">
+            <h3 class="font-heading font-bold text-sm tracking-wider text-slate-900 dark:text-white uppercase flex items-center gap-2">
+              <i class="fa-solid fa-address-card text-blue-500"></i>
+              <span>Curated Biodata &amp; Profile Summary</span>
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                  <span class="block text-xs font-mono text-slate-500 dark:text-slate-400">Degree</span>
+                  <span class="font-medium text-slate-800 dark:text-slate-200">B.Sc. in EEE (Daffodil International University)</span>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-flag"></i>
+                </div>
+                <div>
+                  <span class="block text-xs font-mono text-slate-500 dark:text-slate-400">Nationality</span>
+                  <span class="font-medium text-slate-800 dark:text-slate-200">Bangladeshi</span>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <span class="block text-xs font-mono text-slate-500 dark:text-slate-400">Location</span>
+                  <span class="font-medium text-slate-800 dark:text-slate-200">Savar, Dhaka, Bangladesh</span>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-purple-50 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <div>
+                  <span class="block text-xs font-mono text-slate-500 dark:text-slate-400">Core Focus</span>
+                  <span class="font-medium text-slate-800 dark:text-slate-200">Engineering, Public Speaking &amp; Anchoring, Web Dev</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links & Action Strip -->
+            <div class="pt-4 flex flex-wrap items-center gap-3">
+              <a href="https://www.linkedin.com/in/md-touhidur-rahman-shiyam-263956343?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl glass-panel text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 hover:scale-110 active:scale-95 flex items-center justify-center shadow transition-all" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl glass-panel text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 hover:scale-110 active:scale-95 flex items-center justify-center shadow transition-all" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl glass-panel text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 hover:scale-110 active:scale-95 flex items-center justify-center shadow transition-all" title="X / Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://facebook.com/share/19bYrkqyaB/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl glass-panel text-slate-700 dark:text-slate-200 hover:text-blue-500 hover:scale-110 active:scale-95 flex items-center justify-center shadow transition-all" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://youtube.com/@shiyamtouhid11?si=KxKw5FI4KlxLAUIS" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl glass-panel text-slate-700 dark:text-slate-200 hover:text-red-500 hover:scale-110 active:scale-95 flex items-center justify-center shadow transition-all" title="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="#video-resume-section" class="ml-auto inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-xs sm:text-sm shadow-md transition-all">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Watch Video Resume</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. MY VIDEO RESUME SECTION (Inside #page-home) -->
+    <section id="video-resume-section" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-slate-200/80 dark:border-slate-800/80">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left Column: Responsive 16:9 Video Container -->
+        <div class="lg:col-span-7 reveal-on-scroll">
+          <div class="relative rounded-3xl overflow-hidden glass-panel p-3 shadow-2xl border border-slate-200/80 dark:border-slate-700/80 group">
+            <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-900 flex items-center justify-center text-white">
+              
+              <!-- Video Placeholder Image / Poster -->
+              <img 
+                src="public/shiyam-stage.jpg" 
+                alt="Shiyam hosting on stage" 
+                class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500"
+                onerror="this.src='public/shiyam.jpg'"
+              >
+              
+              <div class="absolute inset-0 bg-slate-950/50 backdrop-blur-[2px]"></div>
+
+              <!-- Interactive Video Play Button Trigger -->
+              <div class="relative z-10 text-center space-y-4 px-6">
+                <button 
+                  class="open-script-modal-btn w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-rose-600 to-red-500 text-white flex items-center justify-center shadow-2xl shadow-rose-600/50 hover:scale-110 active:scale-95 transition-all group-hover:animate-pulse"
+                  data-script="video-resume"
+                  title="Launch Video Resume Preview / Script"
+                >
+                  <i class="fa-solid fa-play text-2xl ml-1"></i>
+                </button>
+                <div>
+                  <h4 class="font-heading font-bold text-lg sm:text-xl text-white">Video Resume — Md. Touhidur Rahman Shiyam</h4>
+                  <p class="text-xs sm:text-sm text-slate-300 font-mono mt-1">B.Sc. in EEE &bull; IEEE PES DIU SBC &bull; 1080p FHD Preview</p>
+                </div>
+              </div>
+
+              <!-- Top Badge -->
+              <div class="absolute top-4 left-4 z-10 px-3 py-1 rounded-md bg-black/60 backdrop-blur-md text-xs font-mono text-rose-400 flex items-center gap-2 border border-white/10">
+                <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+                <span>FEATURED RESUME</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Heading, Text & Button to View Script in "The Feed" -->
+        <div class="lg:col-span-5 space-y-6 reveal-on-scroll">
+          <div class="space-y-2">
+            <span class="text-xs font-mono font-semibold tracking-wider text-rose-500 uppercase">
+              // Multimedia Presentation
+            </span>
+            <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">
+              My Video Resume
+            </h2>
+          </div>
+
+          <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+            Watch my video resume for a comprehensive overview of my academic qualifications, IEEE PES anchoring experience, technical skills, and career aspirations.
+          </p>
+
+          <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            Designed for prospective recruiters, engineering faculty, and event organizers seeking a dynamic demonstration of my public presence, communication poise, and technical vision.
+          </p>
+
+          <div class="pt-2 flex flex-col sm:flex-row gap-3">
+            <button 
+              class="open-script-modal-btn px-6 py-3.5 rounded-xl bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-700 hover:to-red-700 text-white font-semibold shadow-md shadow-rose-500/25 flex items-center justify-center gap-2 hover:-translate-y-0.5 transition-all"
+              data-script="video-resume"
+            >
+              <i class="fa-solid fa-file-lines"></i>
+              <span>Read Full Written Script</span>
+            </button>
+            <a 
+              href="#feed" 
+              data-page="feed"
+              class="nav-page-link px-6 py-3.5 rounded-xl glass-panel text-slate-800 dark:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800/80 font-medium flex items-center justify-center gap-2 transition-all"
+            >
+              <span>Explore The Feed</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 2: EDUCATION & TRAINING
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-education">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-blue-600 dark:text-blue-400 uppercase">// Academic Foundation</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Education &amp; Training</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Formal electrical engineering coursework, science fundamentals, and specialized technical certifications.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Degree 1: B.Sc. in EEE at DIU -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-5 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-mono font-semibold bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300">
+              2023 — Present (In Progress)
+            </span>
+            <i class="fa-solid fa-graduation-cap text-2xl text-blue-600 dark:text-blue-400"></i>
+          </div>
+
+          <div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">B.Sc. in Electrical and Electronic Engineering (EEE)</h3>
+            <p class="text-blue-600 dark:text-blue-400 font-medium text-sm mt-1">Daffodil International University (DIU)</p>
+          </div>
+
+          <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+            Rigorous engineering curriculum focused on Circuit Analysis, Semiconductor Devices, Signals and Systems, Microcontroller Programming, Electrical Power Transmission, and MATLAB simulation.
+          </p>
+
+          <div class="pt-2 border-t border-slate-200 dark:border-slate-800 flex flex-wrap gap-2 text-xs font-mono text-slate-500 dark:text-slate-400">
+            <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900">Circuits &amp; Electronics</span>
+            <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900">MATLAB / Simulink</span>
+            <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900">C Programming</span>
+          </div>
+        </div>
+
+        <!-- Degree 2: Higher Secondary Certificate (HSC) in Science -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-5 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-mono font-semibold bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">
+              Completed
+            </span>
+            <i class="fa-solid fa-atom text-2xl text-emerald-600 dark:text-emerald-400"></i>
+          </div>
+
+          <div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">Higher Secondary Certificate (HSC)</h3>
+            <p class="text-emerald-600 dark:text-emerald-400 font-medium text-sm mt-1">Science Group</p>
+          </div>
+
+          <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+            Comprehensive foundation in Physics, Advanced Mathematics, Chemistry, and Information &amp; Communication Technology, establishing analytical and mathematical problem-solving competencies.
+          </p>
+
+          <div class="pt-2 border-t border-slate-200 dark:border-slate-800 flex flex-wrap gap-2 text-xs font-mono text-slate-500 dark:text-slate-400">
+            <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900">Physics &amp; Math</span>
+            <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900">ICT Fundamentals</span>
+            <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900">Analytical Science</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 3: MY PROJECTS
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-projects">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 reveal-on-scroll">
+        <div class="max-w-2xl space-y-2">
+          <span class="text-xs font-mono font-semibold tracking-wider text-teal-600 dark:text-teal-400 uppercase">// Technical Undertakings</span>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">My Projects</h2>
+          <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Engineering hardware designs, Proteus circuit simulations, and clean web development practices.</p>
+        </div>
+
+        <!-- Filter Buttons Bar -->
+        <div class="flex flex-wrap gap-2 p-1.5 rounded-2xl glass-panel border border-slate-200 dark:border-slate-800 shrink-0">
+          <button class="project-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-blue-600 text-white shadow-md transition-all" data-filter="all">All Projects</button>
+          <button class="project-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition-all" data-filter="web">Frontend / UI/UX</button>
+          <button class="project-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition-all" data-filter="ieee">IEEE PES Projects</button>
+        </div>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        
+        <!-- Project 1: IEEE PES DIU Event Booking Hub -->
+        <div class="portfolio-project-card glass-panel glass-card rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between reveal-on-scroll" data-category="ieee">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3.5 py-1.5 rounded-lg text-xs font-mono font-semibold bg-purple-50 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400 border border-purple-200/60 dark:border-purple-800/40">
+                IEEE PES • PLATFORM
+              </span>
+              <i class="fa-solid fa-calendar-check text-purple-500 text-xl"></i>
+            </div>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white">IEEE PES DIU Event Booking Hub</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
+              A specialized event management and speaker coordination platform developed for the IEEE PES DIU Student Branch Chapter to manage attendees, registration passes, and publish technical conference highlights.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-xs font-mono text-slate-500 dark:text-slate-400">
+            <span>IEEE PES DIU SBC • Event System</span>
+            <span class="text-purple-600 dark:text-purple-400 font-bold">Featured Hub</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Frontend UI/UX Interactive Portfolio -->
+        <div class="portfolio-project-card glass-panel glass-card rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between reveal-on-scroll" data-category="web">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3.5 py-1.5 rounded-lg text-xs font-mono font-semibold bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 border border-blue-200/60 dark:border-blue-800/40">
+                FRONTEND / UI/UX
+              </span>
+              <i class="fa-solid fa-laptop-code text-blue-500 text-xl"></i>
+            </div>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white">Frontend UI/UX Interactive Portfolio</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
+              High-performance responsive personal web platform created with fluid glassmorphism aesthetics, intuitive category views, instant dark/light themes, and refined interactive UI components.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-xs font-mono text-slate-500 dark:text-slate-400">
+            <span>HTML5 • CSS3 / Glassmorphism • Vanilla JS</span>
+            <span class="text-blue-600 dark:text-blue-400 font-bold">Live UI</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 4: WORK EXPERIENCE & LEADERSHIP
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-experience">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-purple-600 dark:text-purple-400 uppercase">// Professional Roles</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Work Experience &amp; Leadership</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Official leadership responsibilities, stage hosting, and organizational contributions.</p>
+      </div>
+
+      <div class="space-y-8">
+        
+        <!-- Experience 1: Telesales Executive at Tarunno Tech -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 reveal-on-scroll">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b border-slate-200 dark:border-slate-800">
+            <div class="flex items-start sm:items-center gap-4">
+              <!-- Tarunno Tech Company Logo -->
+              <a href="https://tarunno.tech/en" target="_blank" rel="noopener noreferrer" class="shrink-0 group/logo block">
+                <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-center p-2.5 overflow-hidden transition-all duration-300 group-hover/logo:scale-105 group-hover/logo:border-emerald-500">
+                  <img src="public/tarunno-logo.png" alt="Tarunno Tech Logo" class="w-full h-full object-contain" />
+                </div>
+              </a>
+              <div>
+                <div class="flex flex-wrap items-center gap-2">
+                  <span class="text-xs font-mono font-semibold text-emerald-600 dark:text-emerald-400 uppercase">INTERNATIONAL SALES &amp; CLIENT CONVERSION</span>
+                </div>
+                <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1">Telesales Executive</h3>
+                <div class="flex flex-wrap items-center gap-2 mt-0.5 text-sm font-medium text-slate-600 dark:text-slate-400">
+                  <span>Tarunno Tech</span>
+                  <span>•</span>
+                  <a href="https://tarunno.tech/en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 hover:underline font-semibold text-xs sm:text-sm">
+                    <span>tarunno.tech/en</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col md:items-end gap-1 self-start md:self-auto">
+              <span class="px-4 py-1.5 rounded-full text-xs font-mono font-semibold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300">
+                Active / Present
+              </span>
+            </div>
+          </div>
+
+          <div class="pt-6 space-y-4">
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
+              Driving business outreach and customer acquisition at <a href="https://tarunno.tech/en" target="_blank" rel="noopener noreferrer" class="font-semibold text-emerald-600 dark:text-emerald-400 hover:underline">Tarunno Tech</a> by managing communications, nurturing international client relationships, and successfully converting foreign prospective leads for tech and digital services.
+            </p>
+            
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-600 dark:text-slate-300 pt-2">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                <span>Engaged with foreign prospects across digital and outbound channels to understand business requirements.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                <span>Effectively presented technology solutions, websites, and digital product offerings to international clients.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                <span>Converted high-intent global leads through clear, persuasive cross-cultural communication and follow-ups.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                <span>Coordinated with technical and product teams to ensure seamless client onboarding and customer satisfaction.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Experience 1: Official Anchor at IEEE PES DIU SBC -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 reveal-on-scroll">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-200 dark:border-slate-800">
+            <div>
+              <span class="text-xs font-mono font-semibold text-purple-600 dark:text-purple-400 uppercase">LEADERSHIP &amp; PUBLIC SPEAKING</span>
+              <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1">Official Event Anchor &amp; Host</h3>
+              <p class="text-sm font-medium text-slate-600 dark:text-slate-400">IEEE Power &amp; Energy Society (PES) Daffodil International University SBC</p>
+            </div>
+            <span class="px-4 py-1.5 rounded-full text-xs font-mono font-semibold bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 self-start md:self-auto">
+              2024 — Present
+            </span>
+          </div>
+
+          <div class="pt-6 space-y-4">
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
+              Serving as the frontline voice of the chapter for major academic and technical ceremonies. Moderated flagship seminars, coordinated panel discussions with visiting scholars from international universities, and maintained engaging audience rapport.
+            </p>
+            
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-600 dark:text-slate-300 pt-2">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-purple-500 mt-1"></i>
+                <span>Hosted high-profile technical webinars with global IEEE researchers.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-purple-500 mt-1"></i>
+                <span>Coordinated with chapter executives to structure professional event agendas.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-purple-500 mt-1"></i>
+                <span>Facilitated interactive Q&amp;A sessions connecting students with industry leads.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-purple-500 mt-1"></i>
+                <span>Refined stage presence, extemporaneous speech, and ceremonial etiquette.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 2: Technical Event Organizer & Campus Facilitator -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 reveal-on-scroll">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-200 dark:border-slate-800">
+            <div>
+              <span class="text-xs font-mono font-semibold text-blue-600 dark:text-blue-400 uppercase">STUDENT ENGAGEMENT</span>
+              <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1">Campus Workshop Organizer &amp; Facilitator</h3>
+              <p class="text-sm font-medium text-slate-600 dark:text-slate-400">Daffodil International University (DIU)</p>
+            </div>
+            <span class="px-4 py-1.5 rounded-full text-xs font-mono font-semibold bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 self-start md:self-auto">
+              Ongoing
+            </span>
+          </div>
+
+          <div class="pt-6 space-y-4">
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
+              Actively participated in campus logistics, workshop registrations, and peer mentorship sessions for first-year engineering students exploring circuit laboratory fundamentals and study frameworks.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 5: PARTICIPATIONS
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-participations">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-cyan-600 dark:text-cyan-400 uppercase">// Engagement</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Participations</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Key symposiums, IEEE workshops, and technical seminars hosted and attended.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="glass-panel glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-cyan-100 dark:bg-cyan-950 text-cyan-700 dark:text-cyan-300">Official Host</span>
+            <i class="fa-solid fa-microphone-lines text-cyan-500"></i>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">IEEE Power &amp; Energy Society Webinar Series</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">Conducted virtual and on-campus webinars featuring keynote lectures on renewable microgrids and smart power systems.</p>
+        </div>
+
+        <div class="glass-panel glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-cyan-100 dark:bg-cyan-950 text-cyan-700 dark:text-cyan-300">Presenter</span>
+            <i class="fa-solid fa-microchip text-cyan-500"></i>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">DIU EEE Project Exhibition &amp; Tech Fair</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">Demonstrated automated sensor-actuated hardware prototypes and exchanged circuit schematics with university evaluators.</p>
+        </div>
+
+        <div class="glass-panel glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-cyan-100 dark:bg-cyan-950 text-cyan-700 dark:text-cyan-300">Participant</span>
+            <i class="fa-solid fa-atom text-cyan-500"></i>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">National Science Olympiad &amp; Physics Challenge</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">Competed in collegiate-level analytical problem solving covering mechanics, electromagnetic induction, and thermodynamics.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 6: ACHIEVEMENTS
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-achievements">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-amber-600 dark:text-amber-400 uppercase">// Milestones</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Achievements</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Recognitions earned in public anchoring, singing, science fairs, and poetry recitation.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="glass-panel glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <i class="fa-solid fa-trophy text-amber-500 text-2xl"></i>
+            <span class="text-xs font-mono text-amber-500 font-bold">2025</span>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Outstanding Anchor Recognition Award</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">Awarded for exceptional ceremonial moderation and vocal fluency during IEEE PES DIU SBC grand inaugurations.</p>
+        </div>
+
+        <div class="glass-panel glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <i class="fa-solid fa-medal text-amber-500 text-2xl"></i>
+            <span class="text-xs font-mono text-amber-500 font-bold">CULTURAL</span>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Singing &amp; Vocal Competition Accolades</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">Secured top positions in regional and campus cultural acoustic singing competitions for melodic control and performance.</p>
+        </div>
+
+        <div class="glass-panel glass-card p-6 rounded-3xl border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="flex items-center justify-between">
+            <i class="fa-solid fa-ribbon text-amber-500 text-2xl"></i>
+            <span class="text-xs font-mono text-amber-500 font-bold">LITERARY</span>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Poetry Recitation &amp; Literature Honors</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">Recognized for emotive expression, rhythm, and classical Bangla poetry recitation in youth literary summits.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 7: EXTRACURRICULAR ACTIVITIES
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-extracurricular">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-emerald-600 dark:text-emerald-400 uppercase">// Holistic Growth</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Extracurricular Activities</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Creative pursuits, community facilitation, and cultural initiatives beyond the classroom.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="glass-panel glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-microphone-lines"></i>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Cultural Event Hosting</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            Hosting collegiate cultural fests, acoustic musical evenings, and open mic gatherings, uniting creative artists and university students.
+          </p>
+        </div>
+
+        <div class="glass-panel glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="w-12 h-12 rounded-2xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-guitar"></i>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Acoustic Jam Sessions</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            Leading fingerstyle acoustic guitar sessions and vocal harmonization on campus to foster a community of passionate music enthusiasts.
+          </p>
+        </div>
+
+        <div class="glass-panel glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 space-y-3 reveal-on-scroll">
+          <div class="w-12 h-12 rounded-2xl bg-purple-50 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Youth Skill Mentoring</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            Guiding junior peers on public speaking confidence, slide design best practices, and effective presentation delivery for engineering juries.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 8: SKILLS & LANGUAGE SKILLS
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-skills">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-orange-600 dark:text-orange-400 uppercase">// Competencies</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Skills &amp; Language Skills</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Categorized breakdown of engineering tools, communication strengths, and linguistic fluency.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- Category 1: Technical & Engineering Skills -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-6 reveal-on-scroll">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Technical &amp; Engineering</h3>
+              <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Circuits &amp; Code</span>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>Circuit Simulation (Proteus / Simulink)</span>
+                <span class="text-blue-600 dark:text-blue-400 font-mono">88%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-blue-600" style="width: 88%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>PCB Design &amp; Layout (KiCad / EasyEDA)</span>
+                <span class="text-blue-600 dark:text-blue-400 font-mono">80%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-blue-600" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>Web Development (HTML5, CSS3, JS)</span>
+                <span class="text-blue-600 dark:text-blue-400 font-mono">82%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-blue-600" style="width: 82%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>C Programming &amp; Embedded Logic</span>
+                <span class="text-blue-600 dark:text-blue-400 font-mono">75%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-blue-600" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Communication & Leadership Skills -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-6 reveal-on-scroll">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-microphone-lines"></i>
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Communication &amp; Stage</h3>
+              <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Leadership &amp; Presence</span>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>Stage Anchoring &amp; Emceeing</span>
+                <span class="text-purple-600 dark:text-purple-400 font-mono">95%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-purple-600" style="width: 95%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>Event Moderation &amp; Panel Facilitation</span>
+                <span class="text-purple-600 dark:text-purple-400 font-mono">92%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-purple-600" style="width: 92%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>Technical Presentation &amp; Pitching</span>
+                <span class="text-purple-600 dark:text-purple-400 font-mono">88%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-purple-600" style="width: 88%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span>Cross-Functional Team Collaboration</span>
+                <span class="text-purple-600 dark:text-purple-400 font-mono">90%</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div class="h-full rounded-full bg-purple-600" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Language Skills -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-6 reveal-on-scroll">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-language"></i>
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900 dark:text-white">Language Skills</h3>
+              <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Fluency &amp; Articulation</span>
+            </div>
+          </div>
+
+          <div class="space-y-5">
+            <div class="p-4 rounded-2xl bg-slate-100/70 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800">
+              <div class="flex items-center justify-between">
+                <span class="font-heading font-bold text-base text-slate-900 dark:text-white">Bengali</span>
+                <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300">Native Fluency</span>
+              </div>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">Exemplary spoken articulation, formal stage delivery, and classical literature recitation.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-slate-100/70 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800">
+              <div class="flex items-center justify-between">
+                <span class="font-heading font-bold text-base text-slate-900 dark:text-white">English</span>
+                <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">Professional Working</span>
+              </div>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">Fluent moderation of international webinars, technical documentation reading, and academic presentations.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 9: HOBBIES & INTERESTS
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-hobbies">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-pink-600 dark:text-pink-400 uppercase">// Creative Rhythm</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Hobbies &amp; Interests</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">The musical roots that inspire patience, harmony, and creative lateral thinking.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Showcase 1: Acoustic Guitar & Fingerstyle -->
+        <div class="glass-panel glass-card rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row reveal-on-scroll">
+          <div class="w-full sm:w-2/5 aspect-[4/3] sm:aspect-auto bg-slate-800 relative overflow-hidden">
+            <img 
+              src="public/shiyam-guitar-acoustic.jpg" 
+              alt="Shiyam with acoustic guitar" 
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              onerror="this.src='public/shiyam.jpg'"
+            >
+          </div>
+          <div class="p-6 sm:p-8 flex-1 space-y-3 flex flex-col justify-center">
+            <span class="text-xs font-mono font-semibold text-pink-600 dark:text-pink-400 uppercase">INSTRUMENTAL PASSION</span>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">Acoustic Guitar &amp; Chord Progressions</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Playing fingerstyle acoustic chords provides meditative clarity. Exploring chord voicings and open tunings cultivates an intuitive understanding of resonance and timing that translates into disciplined programming.
+            </p>
+          </div>
+        </div>
+
+        <!-- Showcase 2: Melodic Singing & Stage Vocals -->
+        <div class="glass-panel glass-card rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row reveal-on-scroll">
+          <div class="w-full sm:w-2/5 aspect-[4/3] sm:aspect-auto bg-slate-800 relative overflow-hidden">
+            <img 
+              src="public/shiyam-stage.jpg" 
+              alt="Shiyam performing on stage" 
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              onerror="this.src='public/shiyam.jpg'"
+            >
+          </div>
+          <div class="p-6 sm:p-8 flex-1 space-y-3 flex flex-col justify-center">
+            <span class="text-xs font-mono font-semibold text-purple-600 dark:text-purple-400 uppercase">VOCAL EXPRESSION</span>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">Vocal Melody &amp; Acoustic Ballads</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Singing unplugged classics and Bengali melodies fuels my stage charisma. Pitch control, diaphragm breath support, and dynamic modulation enhance my anchoring and communication versatility.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 10: RECOMMENDATIONS
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-recommendations">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-sky-600 dark:text-sky-400 uppercase">// Peer &amp; Faculty Endorsements</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">Recommendations</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Reflections from academic supervisors, IEEE branch counselors, and student collaborators.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Recommendation 1: Faculty / IEEE Mentor Endorsement -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-6 reveal-on-scroll">
+          <i class="fa-solid fa-quote-left text-3xl text-sky-500/40"></i>
+          <p class="text-slate-700 dark:text-slate-200 italic text-base sm:text-lg leading-relaxed">
+            "Shiyam stands out for his exceptional poise and communicative intelligence. Whenever IEEE PES DIU SBC hosts high-level international dignitaries, he anchors with commanding fluency, deep preparation, and absolute professionalism."
+          </p>
+          <div class="pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-3">
+            <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-sky-500 to-blue-600 flex items-center justify-center text-white font-bold text-sm">
+              IP
+            </div>
+            <div>
+              <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white">IEEE PES DIU SBC Advisor</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Department of EEE, Daffodil International University</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recommendation 2: Engineering Peer & Capstone Lead -->
+        <div class="glass-panel glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 space-y-6 reveal-on-scroll">
+          <i class="fa-solid fa-quote-left text-3xl text-sky-500/40"></i>
+          <p class="text-slate-700 dark:text-slate-200 italic text-base sm:text-lg leading-relaxed">
+            "Working with Shiyam on hardware circuit implementations and software models is inspiring. He doesn't merely analyze schematics; he explains complex principles clearly and ensures every deliverable meets the highest visual and technical standards."
+          </p>
+          <div class="pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-3">
+            <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm">
+              ER
+            </div>
+            <div>
+              <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white">Senior EEE Capstone Colleague</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Engineering Collaborator, DIU</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       PAGE VIEW 11: THE FEED (Blog / Scripts Showcase)
+       ========================================================================= -->
+  <main class="page-view relative z-10" id="page-feed">
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-12 space-y-2 reveal-on-scroll">
+        <span class="text-xs font-mono font-semibold tracking-wider text-blue-600 dark:text-blue-400 uppercase">// The Feed &amp; Insights</span>
+        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white tracking-tight">The Feed</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">A curated repository of speech scripts, video resume outlines, and engineering essays.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Post 1: Video Resume Script -->
+        <article class="glass-panel glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 flex flex-col justify-between reveal-on-scroll">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-md text-xs font-mono font-semibold bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400">
+                VIDEO SCRIPT
+              </span>
+              <span class="text-xs font-mono text-slate-400">Spring 2026</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">My Video Resume Script</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Complete scene-by-scene script detailing my undergraduate EEE narrative, IEEE stage anchoring clips, circuit projects, and musical philosophy.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800">
+            <button 
+              class="open-script-modal-btn w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs tracking-wider uppercase transition-colors flex items-center justify-center gap-2"
+              data-script="video-resume"
+            >
+              <i class="fa-solid fa-book-open"></i>
+              <span>Read Script Blueprint</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Post 2: Reflection on EEE & Rhythm -->
+        <article class="glass-panel glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 flex flex-col justify-between reveal-on-scroll">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-md text-xs font-mono font-semibold bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400">
+                ESSAY
+              </span>
+              <span class="text-xs font-mono text-slate-400">February 2026</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">Technical Precision Meets Artistic Rhythm</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Exploring why signal filtering, waveform frequencies, and acoustic guitar harmonics represent identical mathematical principles.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800">
+            <button 
+              class="open-script-modal-btn w-full py-2.5 rounded-xl glass-panel hover:bg-slate-200/60 dark:hover:bg-slate-800/80 text-slate-800 dark:text-slate-200 font-semibold text-xs tracking-wider uppercase transition-colors flex items-center justify-center gap-2"
+              data-script="reflection-eee"
+            >
+              <i class="fa-solid fa-align-left"></i>
+              <span>Read Essay</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Post 3: Anchoring Insights -->
+        <article class="glass-panel glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 flex flex-col justify-between reveal-on-scroll">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-md text-xs font-mono font-semibold bg-purple-50 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400">
+                CASE STUDY
+              </span>
+              <span class="text-xs font-mono text-slate-400">January 2026</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 dark:text-white">Behind the Podium: Moderating IEEE Summits</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Key strategies for introducing international scholars, improvising through technical glitches, and sustaining dynamic stage energy.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800">
+            <button 
+              class="open-script-modal-btn w-full py-2.5 rounded-xl glass-panel hover:bg-slate-200/60 dark:hover:bg-slate-800/80 text-slate-800 dark:text-slate-200 font-semibold text-xs tracking-wider uppercase transition-colors flex items-center justify-center gap-2"
+              data-script="ieee-anchoring"
+            >
+              <i class="fa-solid fa-align-left"></i>
+              <span>Read Case Study</span>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       6. FOOTER SECTION (Exact User Specified Structure)
+       ========================================================================= -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-950/80 backdrop-blur-md py-14 px-4 sm:px-6 lg:px-8 text-center text-sm space-y-3">
+    <div class="max-w-4xl mx-auto space-y-2">
+      <!-- Line 1 -->
+      <p class="font-medium text-slate-800 dark:text-slate-200">
+        &copy; 2026 Md. Touhidur Rahman Shiyam — Dedicated to Professionalism
+      </p>
+
+      <!-- Line 2 -->
+      <p class="text-base font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+        Let's Collaborate!
+      </p>
+
+      <!-- Line 3: Academic Email Address -->
+      <p class="font-mono text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+        Academic Email: <a href="mailto:262-33-080@diu.edu.bd" class="hover:text-blue-600 dark:hover:text-blue-400 underline underline-offset-4">262-33-080@diu.edu.bd</a>
+      </p>
+
+      <!-- Line 4: Personal Email Address -->
+      <p class="font-mono text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+        Personal Email: <a href="mailto:touhidurrahmanshiyam@gmail.com" class="hover:text-blue-600 dark:hover:text-blue-400 underline underline-offset-4">touhidurrahmanshiyam@gmail.com</a>
+      </p>
+
+      <!-- Line 5: Pipe-separated text links -->
+      <div class="pt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-xs font-mono text-slate-500 dark:text-slate-400">
+        <a href="https://www.linkedin.com/in/md-touhidur-rahman-shiyam-263956343?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">LinkedIn</a>
+        <span class="opacity-50">|</span>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">GitHub</a>
+        <span class="opacity-50">|</span>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">X</a>
+        <span class="opacity-50">|</span>
+        <a href="https://youtube.com/@shiyamtouhid11?si=KxKw5FI4KlxLAUIS" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">YouTube</a>
+        <span class="opacity-50">|</span>
+        <a href="#experience" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">IEEE PES Profile</a>
+        <span class="opacity-50">|</span>
+        <a href="#the-feed" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       FEED / SCRIPT VIEWER MODAL
+       ========================================================================= -->
+  <div id="feed-modal" class="hidden fixed inset-0 bg-slate-950/75 backdrop-blur-md z-50 items-center justify-center p-4 sm:p-6" role="dialog" aria-modal="true" aria-labelledby="feed-modal-title">
+    <div class="bg-white dark:bg-slate-900 rounded-3xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+      
+      <!-- Modal Header -->
+      <div class="p-6 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span id="feed-modal-category" class="px-2.5 py-0.5 rounded text-xs font-mono font-semibold bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">Category</span>
+            <span id="feed-modal-date" class="text-xs font-mono text-slate-400">Date</span>
+          </div>
+          <h3 id="feed-modal-title" class="font-heading font-bold text-xl sm:text-2xl text-slate-900 dark:text-white">Script Document</h3>
+        </div>
+        <button id="close-feed-modal" class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 flex items-center justify-center hover:scale-105 active:scale-95 transition-all" aria-label="Close modal">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div id="feed-modal-content" class="p-6 overflow-y-auto max-h-[60vh]">
+        <!-- Injected via script.js -->
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/50 flex justify-end">
+        <button onclick="document.getElementById('feed-modal').classList.add('hidden'); document.getElementById('feed-modal').classList.remove('flex'); document.body.style.overflow='';" class="px-5 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 text-sm font-semibold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
+          Close Reader
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js?v=2.0"></script>
+</body>
+</html>
